@@ -48,7 +48,7 @@ if (parseInt(superSconto) === luckyNumber) {
 }else{
   document.getElementById('finalKm').innerText = (kilometers);
   document.getElementById('finalAge').innerText = (age);
-  document.getElementById('finalPrice').innerText = (prezzoFinale);
+  document.getElementById('finalPrice').innerText = (prezzoFinale.toFixed(2));
   document.getElementById('finalSconto').innerText = (sconto);
 }
 // controllo se l'utente ha vinto e cambio grafica e testo del ticket

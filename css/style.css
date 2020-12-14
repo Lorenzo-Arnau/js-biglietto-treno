@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 #ticket{
   width: 800px;
   height: 400px;
@@ -14,7 +18,7 @@
 }
 .container:hover #ticket{
   opacity:1;
-  transition: opacity 5s;
+  transition: opacity 4s;
 }
 .chilometri , .eta , .prezzo{
   position:absolute;
